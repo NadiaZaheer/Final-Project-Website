@@ -1,0 +1,179 @@
+.container {
+  max-width: 960px;
+  
+}
+
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color:#A44AAC;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  font-size: larger;
+}
+.site-header a {
+  color: #ffffff;
+  transition: color .15s ease-in-out;
+  text-decoration: none;
+}
+.site-header a:hover {
+  color: #FADCE4;
+  
+  border-bottom: 2px solid #FADCE4;
+
+  
+}
+h1{
+  color:white;
+}
+/*CTA*/
+button.btn.btn-primary{
+
+  background-color: #A44AAC;
+  color: white;
+  padding: 20px 40px; /* Increase padding */
+  height: 70px; /* Set a fixed height */
+ font-size: larger;
+ 
+}
+button.btn.btn-primary:hover{
+  box-shadow: 0 0 10px 0 #FADCE4 inset, 0 0 20px 2px #FADCE4;
+  border: 3px solid #FADCE4;
+  
+  
+
+}
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+ div.position-relative.overflow-hidden.p-3.p-md-5.m-md-3.text-center.bg-body-tertiary{
+
+background-image:url("../cover/images/bgImg.png");
+background-repeat: no-repeat;
+background-position: center; /* center the image */
+  background-size: cover; /* resize the image to cover the element */
+color:white;
+}
+
+/*header Device images
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+      content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}*/
+.product-device {
+  
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(10deg);
+}
+
+.product-device::before {
+ 
+      content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+  transform: rotate(10deg);
+}*
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+/*Features*/
+.text.me-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden {
+  background: #9DD2D8;
+  
+  
+}
+div.my-3.py-3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-body-tertiary.me-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden {
+  background-color: #9DD2D8 !important;
+}
+div.my-3.p-3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.bg-body-tertiary.shadow-sm.mx-auto{
+
+  background-image:url("/cover/images/josh-withers-TCBvy1-xHU8-unsplash.jpg")
+  
+}
+
+div.bg-dark.shadow-sm.mx-auto{
+
+  background-image:url("/cover/images/michael-dziedzic--LFxVNhopfs-unsplash.jpg")
+
+}
+
+.horizontal-section{
+text-align: center;
+background-color:  #9DC3E2;
+background-image: linear-gradient(#9DC3E2, #9DD2D8);
+padding: 5%;
+margin:16px;
+
+}
+.horizontal-section h1{
+
+  font-style: oblique;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:black;
+}
+.horizontal-section h3{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.horizontal-section img:hover{
+
+  box-shadow: 7px 7px 2px rgb(154, 177, 185);
+  opacity: 0.4;
+}
+
+/*Footer*/
+footer.container-fluid.py-5{
+margin: 0;
+color:white;
+width:100vw;
+background-color: #A44AAC;
+}
+a.link-secondary{color:#ffffff;}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
