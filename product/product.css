@@ -222,3 +222,18 @@ a.link-secondary{color:#000000;}
 /*<h2 class="display-5">Track your Heartrate and Bloodpressure.</h2>
         <p class="lead">Xhale teaches you mindfulness techniques that can lower your stress hormones, heart rate, and blood pressure, and shows you how you are progressing with session summaries.</p>*/
 
+        @media (max-width: 767.98px) {
+          .section-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+      
+          .horizontal-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        }
