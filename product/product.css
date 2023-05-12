@@ -2,56 +2,89 @@
   max-width: 960px;
   
 }
-
+body{
+  background-color: #E0EAF1;
+}
+.NavLogo {
+  max-width: 100%;
+  height: auto;
+}
 
 /*
  * Custom translucent site header
  */
 
 .site-header {
-  background-color:#A44AAC;
+  background-color:#C7D9E6;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
-  font-size: larger;
+ 
 }
 .site-header a {
-  color: #ffffff;
+  color: #000000;
   transition: color .15s ease-in-out;
   text-decoration: none;
 }
 .site-header a:hover {
-  color: #FADCE4;
-  
-  border-bottom: 2px solid #FADCE4;
+  color: #374D5F;
+  font-weight: bold;
+  border-bottom: 2px solid #374D5F;
 
   
 }
 h1{
-  color:white;
+  color:rgb(0, 0, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p.lead.fw-normal{
+  color:black;
+ font-size: 2rem;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 /*CTA*/
 button.btn.btn-primary{
 
-  background-color: #A44AAC;
+  background-color: #000000;
   color: white;
-  padding: 20px 40px; /* Increase padding */
+  padding: 20px 30px; /* Increase padding */
   height: 70px; /* Set a fixed height */
- font-size: larger;
- 
+ font-size:medium;
+ width: 300px;
+ margin: 5px;
 }
 button.btn.btn-primary:hover{
-  box-shadow: 0 0 10px 0 #FADCE4 inset, 0 0 20px 2px #FADCE4;
-  border: 3px solid #FADCE4;
+  box-shadow: 0 0 10px 0 #E9E7E4 inset, 0 0 20px 2px #E9E7E4;
+  border: 1px solid #E9E7E4;
   
   
 
+}
+
+
+button.btn.btn-primary:active{
+  box-shadow: 0 0 10px 0 #E9E7E4 inset, 0 0 20px 2px #E9E7E4;
+  border: 1px solid #E9E7E4;
+  color: black;
+  
+  
+
+}
+
+.btn-primary{
+
+  --bs-btn-active-bg: var(--bs-border-color-translucent);
+  --bs-btn-active-border-color: #00000000;
+  --bs-btn-border-color: #0d6dfd00;
 }
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
  div.position-relative.overflow-hidden.p-3.p-md-5.m-md-3.text-center.bg-body-tertiary{
 
-background-image:url("../cover/images/bgImg.png");
+background-image:url("images/Hero2.png");
 background-repeat: no-repeat;
 background-position: center; /* center the image */
   background-size: cover; /* resize the image to cover the element */
@@ -83,7 +116,7 @@ color:white;
 .product-device {
   
   width: 300px;
-  height: 540px;
+  height: 700px;
   background-color: #333;
   border-radius: 21px;
   transform: rotate(10deg);
@@ -106,64 +139,67 @@ color:white;
 }
 /*Features*/
 .text.me-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden {
-  background: #9DD2D8;
+  background: #E0EAF1;
+ text-align: center;
   
   
 }
 div.my-3.py-3{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+  
+ p.lead{
+  font-size: 2rem;
+ } 
+
+
 
 .bg-body-tertiary.me-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden {
-  background-color: #9DD2D8 !important;
+  background-color: #9DC3E2 !important;
 }
-div.my-3.p-3{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 div.bg-body-tertiary.shadow-sm.mx-auto{
 
   background-image:url("/cover/images/josh-withers-TCBvy1-xHU8-unsplash.jpg")
   
 }
 
-div.bg-dark.shadow-sm.mx-auto{
 
-  background-image:url("/cover/images/michael-dziedzic--LFxVNhopfs-unsplash.jpg")
 
-}
 
 .horizontal-section{
 text-align: center;
-background-color:  #9DC3E2;
-background-image: linear-gradient(#9DC3E2, #9DD2D8);
+background-color:  #E0EAF1;
+
 padding: 5%;
 margin:16px;
 
 }
 .horizontal-section h1{
 
-  font-style: oblique;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  font-family:Georgia, 'Times New Roman', Times, serif;
   color:black;
 }
 .horizontal-section h3{
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.horizontal-section img:hover{
 
-  box-shadow: 7px 7px 2px rgb(154, 177, 185);
-  opacity: 0.4;
-}
+
+
+.horizontal-section img:hover {
+    opacity: 0.7;
+ }
+
 
 /*Footer*/
 footer.container-fluid.py-5{
 margin: 0;
-color:white;
+color:rgb(0, 0, 0);
 width:100vw;
-background-color: #A44AAC;
+background-color: #C7D9E6;
 }
-a.link-secondary{color:#ffffff;}
+a.link-secondary{color:#000000;}
 
 /*
  * Extra utilities
@@ -176,4 +212,10 @@ a.link-secondary{color:#ffffff;}
   .flex-md-equal > * {
     flex: 1;
   }
+
+  
 }
+
+/*<h2 class="display-5">Track your Heartrate and Bloodpressure.</h2>
+        <p class="lead">Xhale teaches you mindfulness techniques that can lower your stress hormones, heart rate, and blood pressure, and shows you how you are progressing with session summaries.</p>*/
+
