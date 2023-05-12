@@ -10,6 +10,10 @@ body{
   height: auto;
 }
 
+.display-5{
+font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
 /*
  * Custom translucent site header
  */
@@ -157,11 +161,10 @@ div.my-3.py-3{
   background-color: #9DC3E2 !important;
 }
 
-div.bg-body-tertiary.shadow-sm.mx-auto{
+div.bg-body.shadow-sm.mx-auto{background-color: #9DC3E2 !important;}
+div.bg-body.box.shadow-sm.mx-auto{background-color: #E0EAF1 !important;}
+div.bg-body-tertiary.box2.me-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden{  background-color: #E0EAF1!important;}
 
-  background-image:url("/cover/images/josh-withers-TCBvy1-xHU8-unsplash.jpg")
-  
-}
 
 
 
